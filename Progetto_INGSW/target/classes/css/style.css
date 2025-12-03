@@ -1,0 +1,153 @@
+/* 🌈 Sfondo generale */
+.root {
+    -fx-font-family: "Inter", "Segoe UI", sans-serif;
+    -fx-background-color: linear-gradient(to bottom right, #e7f0ff, #cbd9ff);
+}
+
+/* 🔝 Header */
+BorderPane > .top {
+    -fx-background-color: white;
+    -fx-padding: 10;
+    -fx-border-color: #d0d7de;
+    -fx-border-width: 0 0 1 0;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.04), 6, 0, 0, 2);
+}
+
+/* 🧭 Barra bottoni pagina */
+.page-button {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #d0d7de;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-font-size: 15px;
+    -fx-text-fill: #333;
+    -fx-padding: 8 20;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.06), 3, 0, 0, 1);
+}
+
+
+/* Hover */
+.page-button:hover {
+    -fx-background-color: #e6f0ff;
+    -fx-border-color: #1a73e8;
+    -fx-text-fill: #1a73e8;
+}
+
+/* Bottone attivo */
+.page-button:focused {
+    -fx-background-color: #dbe9ff;
+    -fx-border-color: #1a73e8;
+    -fx-text-fill: #1a73e8;
+}
+
+/* 👤 Area nome utente */
+.user-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #444;
+    -fx-font-weight: 600;
+}
+
+/* User ruolo */
+.user-role {
+    -fx-font-size: 12px;
+    -fx-text-fill: #777;
+}
+
+/* 📌 MenuButton utente */
+.menu-button {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+/* 📌 Dropdown menu */
+.menu-item {
+    -fx-background-color: white;
+}
+
+.menu-item:hover {
+    -fx-background-color: #e6f0ff;
+}
+
+/* 🧩 StackPane centrale */
+#contentPane {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-padding: 20;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 8, 0, 0, 2);
+}
+
+/* 📄 Label generiche */
+.label {
+    -fx-text-fill: #333;
+    -fx-font-size: 15px;
+}
+
+/* Mini-label (meno importanti) */
+.small-label {
+    -fx-text-fill: #666;
+    -fx-font-size: 13px;
+}
+
+/* 🧱 Pane vuoto, placeholder */
+.empty-pane {
+    -fx-background-color: #f7f7f7;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-padding: 20;
+    -fx-text-fill: #666;
+    -fx-font-size: 15px;
+}
+
+/* Effetti generici */
+.shadow-card {
+    -fx-background-color: white;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 8, 0, 0, 2);
+}
+/* 🗓️ Orario — stile minimale senza bordi e senza background */
+
+/* Giorni della settimana — testo più piccolo */
+.orario-header {
+    -fx-font-size: 15px;           /* resta piccolo */
+    -fx-font-weight: 700;
+    -fx-text-fill: #1a73e8;        /* blu per i giorni della settimana */
+    -fx-alignment: center;
+}
+
+/* Colonna orari — testo più grande */
+.orario-time {
+    -fx-font-size: 15px;           /* aumentato */
+    -fx-font-weight: 600;
+    -fx-text-fill: #555;           /* grigio per la colonna degli orari */
+    -fx-alignment: center;
+}
+
+/* Celle vuote generiche — testo più grande */
+.orario-cell {
+    -fx-font-size: 18px;           /* aumentato */
+    -fx-text-fill: #333;           /* colore neutro celle vuote */
+    -fx-alignment: center;
+}
+
+/* Effetto hover sulle celle */
+.orario-cell:hover {
+    -fx-text-fill: #1a73e8;        /* cambia colore solo testo */
+}
+
+/* Celle con lezione */
+.orario-lesson {
+    -fx-font-size: 18px;           /* coerente con le altre celle */
+    -fx-text-fill: #0b57d0;        /* blu più intenso */
+    -fx-font-weight: 700;
+}
+
+#welcomeText {
+    -fx-text-fill: #000000;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-padding: 10px 20px;
+}
