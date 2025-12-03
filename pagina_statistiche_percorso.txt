@@ -1,0 +1,13 @@
++---------------------------------------------------------------------------------+
+|  PERCORSO NARRATIVO INTERATTIVO (PNI)            Studente: Marco Rossi (3B)     |
++---------------------------------------------------------------------------------+
+| Capitolo attivo: Capitolo 4 - "Equazioni e modelli"      Stato: IN CORSO [60%]   |
+| [███████████-------]  Progresso capitolo (3/5 checkpoint superati)              |
++---------------------------------------------------------------------------------+
+| Competenze chiave                      | Timeline narrativa (ultimi eventi)    |
+| -------------------------------------- | -------------------------------------  |
+| Comprensione concetti : [█████████-----]  01/12  Checkpoint 3: PARZIALE (5/10)   |
+| Risolvere equazioni    : [███████-------]  25/11  Scelta: Ripasso guidato scelto  |
+| Modellizzazione        : [█████---------]  18/11  Checkpoint 2: SUPERATO (8/10)   |
+| Applicazione pratica   : [███-----------]  10/11  Ricevuto badge: "Costanza"      |
++---------------------------------------------------------------------------------+

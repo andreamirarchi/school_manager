@@ -1,0 +1,14 @@
+frontend-java:
+login
+registro voti
+registro argomenti
+
+backend-nodejs:
+/api/getUtente/:utente
+con questo prendiamo il nome utente e validiamo la password
+/api/getClasseConStudenti
+nel dominio ci sarà la classe Classe con l'attributo studenti che contiene un array con tutti gli studenti, fetchati da codice
+/api/getMateria/:professoreId
+capiamo che materia insegna il professore
+/api/getVotoStudente/:nomeStudente
+facciamo un fetch che popola la tabella dei voti con tutti i voti di tutti gli studenti
